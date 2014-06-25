@@ -40,9 +40,8 @@ return array(
 	// messages
 	'updated' => 'Din sida &auml;r uppdaterad.',
 	'created' => 'Din nya sida har lagts till.',
-	'deleted' => 'Din sida har tagits bort.'
+	'deleted' => 'Din sida har tagits bort.',
 
-	
 	'page_error_delete' => 'Tyv&auml;rr kan du inte ta bort din start- eller inl&auml;ggssida.'
 	
 );
