@@ -72,6 +72,6 @@ return array(
 	'profile_memory_usage' => 'Total minnesanv&auml;ndning',
 
 	// messages
-	'confirm_delete' => '&Auml;r du s&auml;ker p&aring; att du vill ta bort? Det kan inte &aring;ngras!',
+	'confirm_delete' => 'Är du säker på att du vill ta bort? Det kan inte ångras!',
 	
 );
