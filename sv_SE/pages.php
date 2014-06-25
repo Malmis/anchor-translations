@@ -3,39 +3,46 @@
 return array(
 
 	'pages' => 'Sidor',
+
 	'create_page' => 'Skapa en ny sida',
-	'no_pages' => 'Det finns inga sidor. Varf�r inte skapa en ny?',
-	'add_page' => 'L&auml;gg till en sida',
-	'editing' => 'Redigerar',
-	'editing_explain' => 'N&aring;gra anv&auml;ndbara l&auml;nkar.',
-	'view_page' => 'Visa den h&auml;r sidan p&aring; din webbplats',
+	'nopages_desc' => 'Det finns inga sidor. Varfšr inte skapa en ny?',
+	'redirect' => 'Omdirigera',
+
+	// form fields
+	'redirect_url' => 'Omdirigera Url',
+	'redirect_missing' => 'V&auml;nligen ange en fungerande url',
+
+	'title' => 'Titel',
+	'title_explain' => 'Din sidas titel, visas i <code>&lt;title&gt;</code>.',
+	'title_missing' => 'V&auml;nligen ange sidans titel',
+
+	'content' => 'Inneh&aring;ll',
+	'content_explain' => 'Din sidas inneh&aring;ll. Använd Markdown.',
+
+	'show_in_menu' => 'Visa i meny',
+	'show_in_menu_explain' => '',
 
 	'name' => 'Namn',
 	'name_explain' => 'Din sidas namn. Detta visas i navigationen.',
-	'title' => 'Titel',
-	'title_explain' => 'Din sidas titel, visas i <code>&lt;title&gt;</code>.',
-	'slug' => 'Slug',
-	'slug_explain' => 'Din sidas &quot;slug&quot; (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">slug</span></code>).',
-	'content' => 'Inneh&aring;ll',
-	'content_explain' => 'Din sidas inneh&aring;ll. Du kan anv&auml;nda giltig HTML.',
+
+	'slug' => 'Utkast',
+	'slug_explain' => 'Utkast uri f&ouml;r att identifiera din sida ska endast inneh&aring;lla ascii tecken',
+	'slug_missing' => 'V&auml;nligen ange utkast uri. Utkast kan bara inneh&aring;lla ascii tecken',
+	'slug_duplicate' => 'Utkast finns redan',
+	'slug_invalid' => 'Utkast m&aring;ste inneh&aring;lla bokst&auml;ver',
+
 	'status' => 'Status',
 	'status_explain' => 'Vill du att sidan ska vara live (publicerad), avvaktande (utkast), eller dold (arkiverad)?',
 
-	'draft' => 'Utkast',
-	'archived' => 'Arkiverad',
-	'published' => 'Publicerad',
+	'parent' => '&Ouml;verordnad',
+	'parent_explain' => '',
 
-	'create' => 'Skapa',
-	'delete' => 'Ta bort',
-	'save' => 'Spara',
-	'return_pages' => '&Aring;terg&aring; till sidor',
+	// messages
+	'updated' => 'Din sida &auml;r uppdaterad.',
+	'created' => 'Din nya sida har lagts till.',
+	'deleted' => 'Din sida har tagits bort.'
 
-	'missing_name' => 'V&auml;nligen ange ett namn',
-	'missing_title' => 'V&auml;nligen ange en titel',
-	'duplicate_slug' => 'En sida med samma &quot;slug&quot; finns redan, v&auml;nligen ange en annan.',
-	'page_success_created' => 'Din nya sida har lagts till',
-	'page_success_updated' => 'Din sida &auml;r uppdaterad',
-	'page_success_delete' => 'Din sida har tagits bort',
+	
 	'page_error_delete' => 'Tyv&auml;rr kan du inte ta bort din start- eller inl&auml;ggssida.'
-
+	
 );

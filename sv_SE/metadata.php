@@ -3,27 +3,43 @@
 return array(
 
 	'metadata' => 'Webbplatsens metadata',
+	'metadata_desc' => 'Hantera webbsplatsens metadata',
 
+	'comment_settings' => 'Kommentarer',
+	'theme_settings' => 'Utseende',
+
+	// form fields
 	'sitename' => 'Webbplatsnamn',
 	'sitename_explain' => 'Namnet p&aring; din webbplats.',
+	'sitename_missing' => 'Du m&aring;ste ange ett webbplatsnamn.',
+
 	'sitedescription' => 'Webbplatsbeskrivning',
 	'sitedescription_explain' => 'En kort beskrivning av din webbplats.',
+	'sitedescription_missing' => 'Du m&aring;ste ange en webbplatsbeskrivning.',
+
 	'homepage' => 'Startsida',
 	'homepage_explain' => 'Din aktiva startsida.',
+
 	'postspage' => 'Inl&auml;ggssida',
 	'postspage_explain' => 'Sidan som kommer visa dina inl&auml;gg.',
+
 	'posts_per_page' => 'Inl&auml;gg per sida',
 	'posts_per_page_explain' => 'Antal inl&auml;gg att visa per sida.',
+
+	'auto_publish_comments' => 'Publicera kommentarer automatiskt',
+	'auto_publish_comments_explain' => '',
+
+	'comment_notifications' => 'E-post notifikation f&ouml;r nya kommentarer',
+	'comment_notifications_explain' => '',
+
+	'comment_moderation_keys' => 'Skr&auml;p nyckelord',
+	'comment_moderation_keys_explain' => 'Kommaseparerad lista med nyckelord att svartlista.
+		Kommentarer kommer automatiskt markeras som skr&auml;p.',
+
 	'current_theme' => 'Aktivt tema',
 	'current_theme_explain' => 'Ditt aktiva tema.',
-	'auto_publish_comments' => 'Publicera kommentarer automatiskt',
-	'twitter' => 'Twitter',
-	'twitter_explain' => 'Ditt Twitter-anv&auml;ndarnamn. Visas som @<span id="output"></span>.',
-	'save' => 'Spara &auml;ndringar',
 
-	'missing_sitename' => 'Du m&aring;ste ange ett webbplatsnamn.',
-	'missing_sitedescription' => 'Du m&aring;ste ange en webbplatsbeskrivning.',
-	'missing_theme' => 'Du m&aring;ste v&auml;lja ett tema.',
-	'meta_success_updated' => 'Din metadata &auml;r uppdaterad'
+	// messages
+	'updated' => 'Sidans metadata &auml;r uppdaterad.',
 
 );
