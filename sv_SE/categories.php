@@ -11,10 +11,10 @@ return array(
 	// form fields
 	'title' => 'Titel',
 	'title_explain' => 'Din kategori titel.',
-	'title_missing' => 'V&auml;nligen ange en titel',
+	'title_missing' => 'V&auml;nligen ange en titel, minst 3 tecken.',
 
 	'slug' => 'Utkast',
-	'slug_explain' => 'Utkastet fÃ¶r din kategori.',
+	'slug_explain' => 'Utkastet för din kategori.',
 
 	'description' => 'Beskrivning',
 	'description_explain' => 'Vad din kategori inneh&aring;ller.',

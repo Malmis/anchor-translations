@@ -23,7 +23,7 @@ return array(
 	// form fields
 	'real_name' => 'Namn',
 	'real_name_explain' => 'Anv&auml;ndarens riktiga namn. Anv&auml;nds i f&ouml;rfattarsignaturen (publikt synlig).',	
-	
+
 	'bio' => 'Biografi',
 	'bio_explain' => 'En kort anv&auml;ndarbiografi. Du kan anv&auml;nda giltig HTML.',
 

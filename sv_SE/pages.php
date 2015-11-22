@@ -17,7 +17,7 @@ return array(
 	'title_missing' => 'V&auml;nligen ange sidans titel',
 
 	'content' => 'Inneh&aring;ll',
-	'content_explain' => 'Din sidas inneh&aring;ll. Använd Markdown.',
+	'content_explain' => 'Din sidas inneh&aring;ll. Använd markdown.',
 
 	'show_in_menu' => 'Visa i meny',
 	'show_in_menu_explain' => '',
@@ -37,11 +37,13 @@ return array(
 	'parent' => '&Ouml;verordnad',
 	'parent_explain' => '',
 
+	'pagetype' => 'Sidtyp',
+	'pagetype_explain' => 'Välj de fält som denna sida tillhör.',
+
 	// messages
 	'updated' => 'Din sida &auml;r uppdaterad.',
 	'created' => 'Din nya sida har lagts till.',
 	'deleted' => 'Din sida har tagits bort.',
 
 	'page_error_delete' => 'Tyv&auml;rr kan du inte ta bort din start- eller inl&auml;ggssida.'
-	
 );

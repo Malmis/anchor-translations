@@ -26,8 +26,11 @@ return array(
 	'posts_per_page' => 'Inl&auml;gg per sida',
 	'posts_per_page_explain' => 'Antal inl&auml;gg att visa per sida.',
 
-	'auto_publish_comments' => 'Publicera kommentarer automatiskt',
-	'auto_publish_comments_explain' => '',
+	'show_all_posts' => 'Visa alla inl&auml;gg',
+	'show_all_posts_explain' => 'Grab posts without pagination (could be slow)',
+
+	'auto_publish_comments' => 'Tillåt kommentarer automatiskt',
+	'auto_publish_comments_explain' => 'Tillåter att kommentarer publiceras automatiskt utan granskning.',
 
 	'comment_notifications' => 'E-post notifikation f&ouml;r nya kommentarer',
 	'comment_notifications_explain' => '',

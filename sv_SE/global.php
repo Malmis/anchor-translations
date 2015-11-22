@@ -10,8 +10,11 @@ return array(
 
 	// words
 	'save' => 'Spara',
+	'saving' => 'Sparar...',
 	'delete' => 'Ta bort',
+	'deleting' => 'Tar bort...',
 	'update' => 'Uppdatera',
+	'updating' => 'Uppdaterar...',
 	'edit' => '&Auml;ndra',
 	'editing' => '&Auml;ndrar',
 	'create' => 'Skapa',
@@ -50,7 +53,7 @@ return array(
 	'log_out' => 'Logga ut',
 	'logout' => 'Logga ut',
 
-	// pharses
+	// phrases
 	'visit_your_site' => 'Bes&ouml;k din sida',
 	'powered_by_anchor' => 'Drivs av Anchor, version %s',
 	'make_blogging_beautiful' => 'G&ouml;r bloggande vackert.',
@@ -73,5 +76,5 @@ return array(
 
 	// messages
 	'confirm_delete' => 'Är du säker på att du vill ta bort? Det kan inte ångras!',
-	
+
 );
