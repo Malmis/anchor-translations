@@ -3,39 +3,43 @@
 return array(
 
 	'pages' => 'Pagine',
+
 	'create_page' => 'Crea una nuova pagina',
-	'no_pages' => 'Ancora nessuna pagina. Perch&eacute; non crearne una nuova?',
-	'add_page' => 'Aggiungi pagina',
-	'editing' => 'Modifica',
-	'editing_explain' => 'Alcuni link utili.',
-	'view_page' => 'Visualizza la pagina sul tuo sito',
+	'nopages_desc' => 'Non hai nessuna pagina.',
+	'redirect' => 'Reindirizzamento',
+
+	// form fields
+	'redirect_url' => 'URL di Reindirizzamento',
+	'redirect_missing' => 'Perfavore inserisci un URL valido.',
+
+	'title' => 'Titolo Pagina',
+	'title_explain' => '',
+	'title_missing' => 'Perfavore inserisci un titolo',
+
+	'content' => 'Contenuto',
+	'content_explain' => 'Il contenuto della tua pagina. Usa il MarkDown.',
+
+	'show_in_menu' => 'Mostra nel Menu',
+	'show_in_menu_explain' => '',
 
 	'name' => 'Nome',
-	'name_explain' => 'Il nome della pagina. Verr&agrave; mostrato nella barra navigazione.',
-	'title' => 'Titolo',
-	'title_explain' => 'Il titolo della pagina, che verr&agrave; mostrato in <code>&lt;title&gt;</code>.',
+	'name_explain' => '',
+
 	'slug' => 'Slug',
-	'slug_explain' => 'Lo slug per il tuo post (<code>' . $_SERVER['HTTP_HOST'] . '/<span id="output">slug</span></code>).',
-	'content' => 'Contenuto',
-	'content_explain' => 'Il contenuto della pagina. Accetto HTML valido.',
+	'slug_explain' => 'URI Slug per identificare la tua pagina, dovrebbe contenere solo caratteri ASCII',
+	'slug_missing' => 'Perfavore inserisci un URI Slug, dovrebbe contenere solo caratteri ASCII',
+	'slug_duplicate' => 'Questo Slug esiste già',
+	'slug_invalid' => 'Lo Slug deve contenere delle lettere',
+
 	'status' => 'Stato',
-	'status_explain' => 'Vuoi che la tua pagina venga mostrata (pubblicata), messa in sospeso (bozza), o nascosta (archiviata)?',
+	'status_explain' => '',
 
-	'draft' => 'Bozza',
-	'archived' => 'Archiviata',
-	'published' => 'Pubblicata',
+	'parent' => 'Genitore',
+	'parent_explain' => '',
 
-	'create' => 'Crea',
-	'delete' => 'Elimina',
-	'save' => 'Salva',
-	'return_pages' => 'Ritorna alle pagine',
-
-	'missing_name' => 'Inserisci un nome',
-	'missing_title' => 'Inserisci un titolo',
-	'duplicate_slug' => 'Esistono gi&agrave; delle pagine con questo slug, per favore inseriscine un\'altro.',
-	'page_success_created' => 'La tua nuova pagina è stata aggiunta',
-	'page_success_updated' => 'La tua nuova pagina è stata aggiornata',
-	'page_success_delete' => 'La tua nuova pagina è stata cancellata',
-	'page_error_delete' => 'Spiacente, non è possibile eliminare la home page o pagina degli articoli.'
+	// messages
+	'updated' => 'La pagina è stata aggiornata.',
+	'created' => 'La pagina è stata creata.',
+	'deleted' => 'La pagina è stata eliminata.'
 
 );
